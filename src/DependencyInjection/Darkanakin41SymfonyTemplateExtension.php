@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Darkanakin41SymfonyTemplateBundle package.
+ * This file is part of the Darkanakin41SymfonyBundleTemplate package.
  */
 
 namespace Darkanakin41\SymfonyTemplateBundle\DependencyInjection;
