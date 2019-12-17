@@ -1,0 +1,42 @@
+{
+    "name": "darkanakin41/symfony-template-bundle",
+    "type": "symfony-bundle",
+    "description": "Pierre LEJEUNE SymfonyTemplateBundle",
+    "keywords": [
+        "symfony",
+        "bundle"
+    ],
+    "homepage": "https://github.com/darkanakin41/symfony-template-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pierre LEJEUNE",
+            "email": "darkanakin41@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "darkanakin41/core-bundle": "^1.3",
+        "doctrine/doctrine-bundle": "^1.3",
+        "friendsofphp/php-cs-fixer": "^2.14",
+        "phpunit/phpunit": "^8.4",
+        "symfony/console": "^4.0",
+        "symfony/test-pack": "*"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Darkanakin41\\SymfonyTemplateBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Darkanakin41\\SymfonyTemplateBundle\\Tests\\": "tests/",
+            "Darkanakin41\\CoreBundle\\Tests\\": "vendor/darkanakin41/core-bundle/tests/"
+        }
+    }
+}
